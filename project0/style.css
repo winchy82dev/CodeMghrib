@@ -1,0 +1,135 @@
+li {
+  float: left;
+}
+
+#c1 {
+  padding-right: 0;
+  margin-right:  0;
+}
+
+ul.head {
+  list-style-type: none;
+  color: rgb(102, 102, 102);
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+#avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-image: url(img/photo.jpg);
+  margin: 20;
+}
+
+.grrr {
+  padding-left: 20px;
+}
+
+.upperimg {
+  padding-left: 20px;
+  cursor: pointer;
+}
+.logo  {
+  padding-top: 109px;
+  margin-left: auto;
+	margin-right: auto;
+  display: block;
+}
+
+#form {
+   background: white url(img/mic.png) right no-repeat;
+   background-size: contain;
+   padding-right: 17px;
+   width: 503px;
+   margin-left: auto;
+ 	 margin-right: auto;
+   position: relative;
+   height: 34px;
+   float: center;
+
+}
+
+#mic {
+  cursor: pointer;
+  float: center;
+  vertical-align: middle;
+  width: 24px;
+
+}
+
+#c3 {
+  padding-top: 33px;
+  text-align:center;
+}
+#c4 {
+  padding-top: 18px;
+}
+#c5 {
+  text-align:center;
+
+}
+.gg-text {
+  text-align:center;
+  padding-top: 15px;
+}
+
+.bottom, #country{
+  margin: 0;
+  overflow: hidden;
+  color: rgba(0,0,0,.54);
+  background: #f2f2f2;
+  padding: 8px;
+  padding-left: 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+#country {
+  padding-left: 43px;
+}
+
+.down {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer_left {
+  list-style-type: none;
+  float: right;
+  padding-right:  27px;
+  margin:0;
+}
+
+#footer_right {
+  list-style-type: none;
+  float: left;
+  padding:0;
+  margin :0;
+}
+
+a.upperlinks {
+ color: #666;
+ padding-left: 20px;
+ font-size: 13px;
+
+}
+
+a.bottomlinks {
+  color: #666;
+  font-size: 16px;
+  padding-left: 27px;
+
+}
+
+.btn {
+  border: 1px solid #e4e4e4;
+  text-align: center;
+  margin:4px;
+}
+
+div.col-logo {
+  position: absolute;
+  top: 100%;
+}
