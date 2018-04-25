@@ -37,6 +37,13 @@ The content of the page was embedded on 5 containers:
 This part took me more that 4h, to test and tweak, and compare with the original home Page using the Chrome Developer Tool.
 
 ### Results
-* This is the result I get, fell free to comment:
+This is the result I get, fell free to comment:
+![Screenshot](FirefoxScreenshot.png)
 
-* And this is the screenshot of the original page:
+On chrome I get two issues:
+* the border corner doesn't show up correctly on the account profile image
+* the buttons stacks on each others
+![Screenshot](ChromeScreenshot.png)
+
+This is the screenshot of the original page:
+![Screenshot](OriginalPage.png)
