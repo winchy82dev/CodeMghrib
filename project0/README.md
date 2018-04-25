@@ -37,7 +37,7 @@ The content of the page was embedded on 5 containers:
 This part took me more that 4h, to test and tweak, and compare with the original home Page using the Chrome Developer Tool.
 
 ### Results
-This is the result I get, feel free to comment:
+This is the result I get:
 ![Screenshot](FirefoxScreenshot.png)
 
 On Chrome browser I get two issues:
