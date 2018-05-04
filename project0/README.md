@@ -49,4 +49,4 @@ This is the screenshot of the original page:
 ![Screenshot](OriginalPage.png)
 
 ### Update (no more stacking buttons)
-After looking on the code, I just keep the two buttons on a single column in the middle of the row, I deleted the two others; the result was great: no more stacking.
+After looking on the code, I just kept the two buttons on a single column in the middle of the row, I deleted the two others; the result was great: no more stacking.
