@@ -21,38 +21,51 @@
         <div class="col">
 
         <nav class="navbar rounded border navbar-expand-lg navbar-light bg-light">
-          <img id="logo" src="img/logo.png" alt="mon logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="nav-link" href="#">
+              <img id="logo" src="img/logo.png" width="30" height="30" alt="mon logo">
+            </a>
+
+
+
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Blog</a>
+              <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Videos</a>
+              <a class="nav-link" href="#">Videos</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Services</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Contact</a>
-            </li>
+              <a class="nav-link" href="#">Contact</a>
+            </li>-
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Skills</a>
+              <a class="nav-link" href="#">Skills</a>
             </li>
+
             <li class="nav-item">
-              <a class="navbar-brand" href="#">Technologies</a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">Portfolio</a>
+              <a class="nav-link" href="#">Portfolio</a>
             </li>
           </ul>
+          <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div>
         </nav>
       </div>
+
   </div>
 
 
@@ -385,7 +398,7 @@
 
 
       <div id="footer" class="row">
-        <div  id="footer_left" class="col">
+
             <ul class="list-unstyled">
             <li class="mb-2">Follow me on:</li>
             <a class="btn border btn-light btn-sm" href="https://ma.linkedin.com/in/najib-lahkim-aa3a0b1b"><i class="fab fa-linkedin"></i></a>
@@ -393,12 +406,13 @@
             <a class="btn border btn-light btn-sm" href="#"><i class="fab fa-twitter"></i></a>
             <a class="btn border btn-light btn-sm" href="https://github.com/3ajib/"><i class="fab fa-github"></i></a>
             <a class="btn border btn-light btn-sm" href="#"><i class="fab fa-google-plus-g"></i></a>
-          </ul>
-        </div>
-        <div id="footer_right"class="col">
+
+or
+
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter2">
-            Contact Me
+          <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#exampleModalCenter2">
+            <li><i class="fas fa-spin fa-envelope mr-2"></i>Email me</li>
+
           </button>
 
 
@@ -429,21 +443,17 @@
 
                 </div>
                 <div class="modal-footer">
-  
+
                   <button type="submit" class="btn btn-secondary" data-dismiss="modal">Submit</button>
                 </div>
               </div>
             </div>
           </div>
+        </ul>
 
 
 
 
-
-<!--
-
--->
-        </div>
     </div>
 
       <div id="footer_bottom" class="row text-center">
