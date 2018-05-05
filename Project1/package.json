@@ -1,11 +1,16 @@
 {
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "* On this project, I'll create my Personal Web Site, to promote myself as an Internet Marketer and an independent web developer\r * I will share what I am working on the portfolio section",
+  "main": "index.js",
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-strongloop": "^2.1.0"
-
-  }
-
+    "eslint-config-recommended": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "author": "Najib Lahkim",
+  "license": "ISC"
 }
-scripts": {
-        "pretest": "eslint --ignore-path .gitignore ."
-    }
