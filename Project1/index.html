@@ -15,8 +15,12 @@
   </head>
   <body>
     <div class="container">
-      <div id="navbar" class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div id="navbar" class="row  mt-2 mb-3">
+
+
+        <div class="col">
+
+        <nav class="navbar rounded border navbar-expand-lg navbar-light bg-light">
           <img id="logo" src="img/logo.png" alt="mon logo">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item">
@@ -49,14 +53,79 @@
           </ul>
         </nav>
       </div>
-      <div id="content" class="row">
-        <div class="col">
-          <h1>Our Mission: Level Up Independent developers</h1>
-          <h2>Join the movement to build, finish, and launch better projects on the web.</h2>
-          <p>My Goal is very simple; teach what I am learning to be good at it.</p>
+  </div>
+
+
+
+        <div class="row-sm mb-3 ">
+
+
+          <div class="card text-center bg-light ">
+            <div class="card-body">
+              <h2 class="card-title">Our Mission : Level Up Independent Developers</h2>
+              <p class="card-text">Join the movement to build, finish, and launch better projects on the web.</p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
+                Join Us
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Be Part Of Our Community</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Enter Your Email Adress to Join the tribe !</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      </form>
+
+
+
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <form>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
+                    </form>
+                  </div>
+
+                    <!--
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                    -->
+
+                </div>
+              </div>
+              </div>
+
+              <!-- END Modal -->
+            </div>
+            <div class="card-footer text-muted">
+              My Goal is very simple; teach what I am learning to be good at it.
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="row">
+          <div class="col">
+
           <h3>Who am I?</h3>
-          <p>Najib is a Digital Marketer who started working in the industry since 2007.</p>
-          <p>He held several positions:</p>
+          <p>Najib is a Digital Marketer who started working in the industry since 2007.</br>
+            He held several positions:</p>
           <ul>
             <li>SEO Manager</li>
             <li>Affiliate Manager</li>
@@ -67,43 +136,132 @@
           </ul>
           <p>For more details, look at <a href="#">Najib's Resume</a> here.</p>
           <p>Basically, he worked on the web, loved it, and want to learn more about how the web is working.</p>
-          <p>So, he started learning the basic languages of the web: Html, Css, and JavaScript, to make optimized & SEO friendly websites.</p>
-          <p>After that, he started to learn coding in lua & C# to make Video Games, his ultimate goal is making video games on Android.</p>
-          <p>And now, he wants to give back and share what he is learning and doing, and prove to the world that everybody can learn to code, and enjoy himself while doing it.</p>
+          <p>So, he started learning the basic languages of the web: Html, Css, and JavaScript, to make optimized and SEO friendly websites.</br>
+          After that, he started to learn coding in lua and C# to make Video Games, his ultimate goal is making video games on Android.</p>
+          <p>And now, he wants to give back and share what he is learning and doing, and prove to the world that everybody can learn to code, and enjoy it while doing it.</p>
           <h2>Why creating this website?</h2>
-          <p>The goal of this website is to market myself, to share my learning path and projects I am working on.</p>
-          <h3>My Skill levels</h3>
+          <p>The goal of this website is to market myself, to share my learning path and the projects I am working on.</p>
+          <h3>Technologies and Skill levels</h3>
           <p>I will be honest about my skills; when it comes to internet marketing, I am good.</p>
-          <p>I am just starting to learn web development (React in particular), to become an Independent web developer, so be indulgent.</p>
-          <p>Internet Marketing:</p>
-          <ul>
-            <li>Managing Paid Campaigns</li>
-            <li>Auditing website performances</li>
+          <p>I am just starting to learn web development (React in particular) to become an independent web developer, so be indulgent.</p>
+
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col">
+
+
+          <ul class="list-group mb-3">
+            <li class="list-group-item list-group-item-action list-group-item-dark">
+              Internet Marketing:
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Managing Paid Campaigns
+              <!--
+              <a class="ml-3" href="https://adwords.google.com/home/"><img class="w-50 img-thumbnail rounded border btn-light" src="img/adwords.png" alt="Adwords logo"></a>
+              <a class="ml-3" href="https://fr-fr.facebook.com/business/products/ads"><img class="w-50 img-thumbnail rounded border btn-light" src="img/facebook.png" alt="Facebook logo"></a>
+-->
+              <span class="badge badge-secondary badge-pill">Excellent</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Auditing website performances
+              <span class="badge badge-secondary badge-pill">Excellent</span>
+            </li>
           </ul>
-          <p>Programing languages:</p>
-          <ul>
-            <li>Python - Beginner</li>
-            <li>C# - Beginner to Intermediate</li>
+
+
+        </div>
+      </div>
+
+
+      <div class="row mb-3">
+        <div class="col">
+
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-dark">
+              Programing languages:
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Python
+              <a class="ml-3" href="https://www.python.org/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/python.png" alt="Python logo"></a>
+              <span class="badge badge-secondary badge-pill">Beginner</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              C#
+              <a class="ml-3" href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/csharp.png" alt="C# logo"></a>
+              <span class="badge badge-secondary badge-pill">Beginner to Intermediate</span>
+            </li>
           </ul>
-          <p>Scripting languages:</p>
-          <ul>
-            <li>JavaScript - Intermediate</li>
-            <li>Lua - Intermediate</li>
+
+
+
+          <ul class="list-group ">
+            <li class="list-group-item list-group-item-action list-group-item-dark">
+              Scripting languages:
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              JavaScript
+              <a class="ml-3" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img class="w-25 img-thumbnail rounded border btn-light" src="img/javascript.png" alt="JavaScript logo"></a>
+              <span class="badge badge-secondary badge-pill">Intermediate</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Lua
+              <a class="ml-3" href="https://www.lua.org/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/lua.png" alt="Lua logo"></a>
+              <span class="badge badge-secondary badge-pill">Intermediate</span>
+            </li>
           </ul>
-          <p>Framworks:</p>
-          <ul>
-            <li>Phaser - Intermediate</li>
-            <li>Love2d - Intermediate</li>
-            <li>Monogame - Intermediate</li>
-            <li>React - Beginner</li>
-            <li>React-Native - Beginner</li>
+
+</div>
+<div class="col">
+
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-dark">
+              Framworks:
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Phaser
+              <a class="ml-3" href="https://phaser.io/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/phaser.png" alt="Phaser logo"></a>
+              <span class="badge badge-secondary badge-pill">Intermediate</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Love2d
+              <a class="ml-3" href="https://love2d.org/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/love2d.png" alt="Love2d logo"></a>
+              <span class="badge badge-secondary badge-pill">Intermediate</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Monogame
+              <a class="ml-3" href="http://www.monogame.net/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/monogame.png" alt="MonoGame logo"></a>
+              <span class="badge badge-secondary badge-pill">Intermediate</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              React
+              <a class="ml-3" href="https://reactjs.org/"><img class="w-25  img-thumbnail rounded border btn-light" src="img/react.png" alt="React logo"></a>
+            <span class="badge badge-secondary badge-pill">Beginner</span>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              React-Native
+              <a class="ml-3" href="https://facebook.github.io/react-native/"><img class="w-25 img-thumbnail rounded border btn-light" src="img/react-native.png" alt="React-Native logo"></a>
+              <span class="badge badge-secondary badge-pill">Beginner</span>
+            </li>
+            </li>
           </ul>
+
+
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col">
+
           <h3>My Services</h3>
           <p>Besides my learning and teaching materials, I am also offering several paid services:</p>
           <h4>On the Internet Marketing World</h4>
           <ul>
-            <li>Managing Paid campaigns on Google Adwords & Facebook</li>
-            <li>Creating Social Media Presence & managing Online Reputation</li>
+            <li>Managing Paid campaigns on Google Adwords and Facebook</li>
+            <li>Creating Social Media Presence and managing Online Reputation</li>
           </ul>
           <h4>On the Web Creation World</h4>
           <ul>
@@ -112,36 +270,103 @@
           </ul>
           <ul>
             <h5>Upcoming..</h5>
-            <li>Creating React & React-Native web apps</li>
+            <li>Creating React and React-Native web apps</li>
             <li>Creating Progressive Web Applications</li>
             <li>Creating Android Apps</li>
           </ul>
           <h3>List of recommended resources to learn from</h3>
-          <p>As I did, Start your own path of learning by joining those platforms and learn from them:</p>
-          <ul>
-            <li>
-              <a href="https://www.udacity.com/">Udacity</a>
+          <p>You can start your own path of learning by joining those platforms and learn from them:</p>
+
+</div>
+</div>
+
+<div class="row">
+  <div class="col">
+
+          <ul class="list-unstyled">
+            <li class="media ">
+
+              <div class="media-body  mb-1">
+                <a class="mt-0 mb-1 " href="https://www.udacity.com/"><img class="w-100  img-thumbnail rounded border btn-light" src="img/Udacity_logo.png" alt="Udacity logo"></a>
+              </div>
             </li>
-            <li>
-              <a href="https://frontendmasters.com/">Front End Masters</a>
-            </li>
-            <li>
-              <a href="https://teamtreehouse.com/">Team Tree House</a>
-            </li>
-            <li>
-              <a href="https://www.freecodecamp.org/">Free Code Camp</a>
-            </li>
-            <li>
-              <a href="https://www.udemy.com/">Udemy</a>
-            </li>
-            <li>
-              <a href="https://wesbos.com/courses/">WesBos Courses</a>
-            </li>
-            <li>
-              <a href="https://www.codeschool.com/">Code School</a>
+
+            <li class="media">
+              <div class="media-body mb-1">
+              <a class="mt-0 mb-1" href="https://frontendmasters.com/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/frontendmasters_logo.png" alt="Frontendmasters logo"></a>
+            </div>
             </li>
           </ul>
-          <p>If you prefer a 1 on 1 free coaching program, take a look at <a href="http://codemghrib.com/">Code Mghrib</a>
+        </div>
+
+
+
+          <div class="col">
+              <ul class="list-unstyled">
+            <li class="media">
+              <div class="media-body mb-1">
+                <a class="mt-0 mb-1" href="https://teamtreehouse.com/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/teamtreehouse_logo.png" alt="Teamtreehouse logo"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+          <div class="col">
+              <ul class="list-unstyled">
+            <li class="media">
+              <div class="media-body mb-1">
+                <a class="mt-0 mb-1" href="https://www.freecodecamp.org/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/freecodecamp_logo.png" alt="Freecodecamp logo"></a>
+              </div>
+              </li>
+            </ul>
+        </div>
+
+            <div class="col">
+                <ul class="list-unstyled">
+                <li class="media">
+                <div class="media-body mb-1">
+                  <a class="mt-0 mb-1" href="https://www.udemy.com/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/udemy_logo.png" alt="Udemy logo"></a>
+                </div>
+                </li>
+              </ul>
+            </div>
+
+              <div class="col">
+                <ul class="list-unstyled">
+                <li class="media">
+                  <div class="media-body mb-1">
+                    <a class="mt-0 mb-1" href="https://wesbos.com/courses/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/wesbos_logo.png" alt="Wesbos logo"></a>
+                  </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col">
+
+            <ul class="list-unstyled">
+
+            <li class="media">
+              <div class="media-body mb-1">
+              <a class="mt-0 mb-1" href="https://www.pluralsight.com/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/pluralsight_logo.png" alt="pluralsight logo"></a>
+            </div>
+            </li>
+
+            <li class="media">
+              <div class="media-body mb-1">
+              <a class="mt-0 mb-1" href="https://www.codeschool.com/"><img class="w-100 img-thumbnail rounded border btn-light" src="img/codeschool_logo.png" alt="Codeschool logo"></a>
+            </div>
+            </li>
+          </ul>
+
+        </div>
+
+</div>
+
+
+
+
+          <p>If you prefer a 1 on 1 free coaching program, take a look at
+            <a class="mt-0 mb-1" href="https://www.codeschool.com/"><img class="w-25 img-thumbnail rounded border btn-dark" src="img/codemghrib_logo.png" alt="Code Mghrib logo"></a>
           </p>
         <!--
           <p>Find a domain name availability and use checker for available names on social media</p>
@@ -152,34 +377,81 @@
           <p>The best way to do that is by creating web-based projects from scratch, without using cms or templates.</p>
           <p>So, to wrap up:</p>
           <ul>
-            <li>Creating <a href="#">Google Search look like page</a> - Done.</li>
+            <li>Creating <a href="https://github.com/3ajib/CodeMghrib/tree/master/project0">Google Search look like page</a> - Done.</li>
             <li>Creating this website from scratch - In progress.</li>
             <li>Creating a portfolio section to show my future realizations - Upcoming.</li>
+            <li>Starting a YouTube Channel  - Upcoming.</li>
           </ul>
-        </div>
-      </div>
+
+
       <div id="footer" class="row">
         <div  id="footer_left" class="col">
-          <ul>
-            <li>Follow me on:</li>
-            <a href="https://ma.linkedin.com/in/najib-lahkim-aa3a0b1b"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/3ajib/"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <ul class="list-unstyled">
+            <li class="mb-2">Follow me on:</li>
+            <a class="btn border btn-light btn-sm" href="https://ma.linkedin.com/in/najib-lahkim-aa3a0b1b"><i class="fab fa-linkedin"></i></a>
+            <a class="btn border btn-light btn-sm" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn border btn-light btn-sm" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="btn border btn-light btn-sm" href="https://github.com/3ajib/"><i class="fab fa-github"></i></a>
+            <a class="btn border btn-light btn-sm" href="#"><i class="fab fa-google-plus-g"></i></a>
           </ul>
         </div>
-        <div id="footer_bottom"class="col">
-          <ul>
-            <li>Contact Me</li>
-          </ul>
-        </div>
-      </div>
-      <div id="content"class="row">
         <div id="footer_right"class="col">
-          <p>My Web Site 2018. All Rights Reserved.</p>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter2">
+            Contact Me
+          </button>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Send me a message</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Your Email address</label>
+                      <input type="email" class="form-control col-md-6" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                    </div>
+
+                    <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                  </form>
+
+                </div>
+                <div class="modal-footer">
+  
+                  <button type="submit" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+<!--
+
+-->
+        </div>
+    </div>
+
+      <div id="footer_bottom" class="row text-center">
+        <div class="col pb-2">
+          <small >My Web Site 2018. All Rights Reserved.</small>
         </div>
       </div>
+    </div>
       <!--Bootstrap Scripts -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
