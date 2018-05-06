@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretest": "eslint --ignore-path .gitignore ."
+    "pretest": "eslint  --ignore-path .gitignore ."
   },
   "author": "Najib Lahkim",
   "license": "ISC"
